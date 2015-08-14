@@ -1,0 +1,60 @@
+@import "syntax-variables";
+
+@fa-font-path: 'atom://replicated-preview/resources';
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('@{fa-font-path}/fontawesome-webfont.eot');
+  src: url('@{fa-font-path}/fontawesome-webfont.eot') format('embedded-opentype'),
+    url('@{fa-font-path}/fontawesome-webfont.woff2') format('woff2'),
+    url('@{fa-font-path}/fontawesome-webfont.woff') format('woff'),
+    url('@{fa-font-path}/fontawesome-webfont.ttf') format('truetype'),
+    url('@{fa-font-path}/fontawesome-webfont.svg') format('svg');
+//  src: url('@{fa-font-path}/FontAwesome.otf') format('opentype'); // used when developing fonts
+  font-weight: normal;
+  font-style: normal;
+}
+
+#replicated-preview {
+  @import '../node_modules/bootstrap/less/bootstrap.less';
+  @icon-font-path: "atom://replicated-preview/resources/";
+
+  @import '../node_modules/font-awesome/less/variables.less';
+  @import '../node_modules/font-awesome/less/mixins.less';
+  @import '../node_modules/font-awesome/less/core.less';
+  @import '../node_modules/font-awesome/less/larger.less';
+  @import '../node_modules/font-awesome/less/fixed-width.less';
+  @import '../node_modules/font-awesome/less/list.less';
+  @import '../node_modules/font-awesome/less/bordered-pulled.less';
+  @import '../node_modules/font-awesome/less/animated.less';
+  @import '../node_modules/font-awesome/less/rotated-flipped.less';
+  @import '../node_modules/font-awesome/less/stacked.less';
+  @import '../node_modules/font-awesome/less/icons.less';
+
+  @import (less) '../node_modules/replicated-config-render/styles/replicated-config-render.less';
+
+  .btn {
+    box-shadow: none;
+    height: auto;
+  }
+}
+
+.config-preview {
+  background-color: #333;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 14px;
+  color: #fff;
+  overflow-y: scroll;
+
+  .replicated-spinner {
+    margin: auto;
+    background-image: url(images/octocat-spinner-128.gif);
+    background-repeat: no-repeat;
+    background-size: 64px;
+    background-position: top center;
+    padding-top: 70px;
+    text-align: center;
+    color:#fff;
+  }
+}
