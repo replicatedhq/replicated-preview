@@ -1,7 +1,7 @@
 {
   "name": "replicated-preview",
   "main": "./lib/config-preview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Replicated YAML to HTML Preview",
   "keywords": [],
   "activationCommands": {
