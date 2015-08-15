@@ -1,5 +1,7 @@
-# replicated-preview package
+#Replicated Preview Package
 
-A short description of your package.
+This in an Alpha version of the Replicated YAML Config Preview Atom Plugin. For more info please see: [https://vendor.replicated.com/yaml-tool](https://vendor.replicated.com/yaml-tool)
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+##Screenshot:
+![alt text](http://www.replicated.com/images/yaml-tool.png "screen shot")
+
