@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "config-preview:toggle"
   },
-  "repository": "https://github.com/replicatedcom/replicated-preview",
+  "repository": "https://github.com/replicatedhq/replicated-preview",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0"
