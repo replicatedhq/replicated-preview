@@ -17,7 +17,7 @@
     "bootstrap": "^3.3.5",
     "font-awesome": "^4.4.0",
     "node-jsx": "^0.13.3",
-    "replicated-config-render": "1.0.3",
+    "replicated-config-render": "1.0.7",
     "underscore-plus": "^1.0.0"
   }
 }
