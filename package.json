@@ -1,23 +1,21 @@
 {
   "name": "replicated-preview",
-  "main": "./lib/config-preview",
-  "version": "1.1.2",
+  "main": "./lib/main",
+  "version": "2.0.0",
   "description": "Replicated YAML to HTML Preview",
-  "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "config-preview:toggle"
-  },
   "repository": "https://github.com/replicatedhq/replicated-preview",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0"
+    "atom": ">0.200.0"
   },
   "dependencies": {
-    "atom-space-pen-views": "^2.0.0",
-    "bootstrap": "^3.3.5",
-    "font-awesome": "^4.4.0",
+    "atom-space-pen-views": "^2.2.0",
+    "bootstrap": "^3.3.6",
+    "debounce": "^1.0.0",
+    "font-awesome": "^4.6.1",
     "node-jsx": "^0.13.3",
-    "replicated-config-render": "1.0.7",
-    "underscore-plus": "^1.0.0"
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "replicated-config-render": "4.0.14"
   }
 }
