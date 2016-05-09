@@ -22,12 +22,13 @@ render = (text, filePath, callback) ->
     console.log("error: " + error)
     console.log("html: " + html)
     if not error
-      html =
-      '<div id="replicated-preview">' +
-      '  <small id="note" class="navbar navbar-inverse navbar-fixed-top">Alpha Version: This config preview is not interactive & will only display the default YAML state. For detailed instructions visit: <a href="https://vendor.replicated.com/yaml-tool">https://vendor.replicated.com/yaml-tool</a></small>' +
-      '  ' + html +
-      '  </div>' +
-      '</div>'
+      html ='<div id="replicated-preview">
+      <small id="note" class="navbar navbar-inverse navbar-fixed-top">
+      Alpha Version: This config preview is not interactive & will only
+      display the default YAML state. For detailed instructions visit:
+      <a href="https://vendor.replicated.com/yaml-tool">
+      https://vendor.replicated.com/yaml-tool</a></small>' + html + '</div>
+      </div>'
     return callback(error, html)
 
 convertCodeBlocksToAtomEditors = (domFragment, defaultLanguage='text') ->

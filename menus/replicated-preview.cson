@@ -1,9 +1,8 @@
-# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
 'context-menu':
   'atom-text-editor': [
     {
       'label': 'Toggle Replicated Config Preview'
-      'command': 'config-preview:toggle'
+      'command': 'replicated-preview:toggle'
     }
   ]
 'menu': [
@@ -14,7 +13,7 @@
       'submenu': [
         {
           'label': 'Toggle Config Preview'
-          'command': 'config-preview:toggle'
+          'command': 'replicated-preview:toggle'
         }
       ]
     ]
